@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #F1F2FB;
+    font-family: Montserrat;
+}
+
+h1{
+    margin: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #bc002d #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #bc002d;
+    border-radius: 10px;
+  }
